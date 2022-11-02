@@ -12,7 +12,7 @@
 
 ### Run prisma migrate
 
-`npx prisma migrate`
+`npx prisma migrate dev`
 
 ### Run prisma generate
 
