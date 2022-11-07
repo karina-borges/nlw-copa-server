@@ -73,7 +73,7 @@ export const poolRoutes = async (fastify: FastifyInstance) => {
       });
 
       if (!pool) {
-        return reply.status(404).send({ message: "Pool not found" });
+        return reply.status(400).send({ message: "Pool not found" });
       }
 
       if (pool.participants.length > 0) {
